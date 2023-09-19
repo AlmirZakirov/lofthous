@@ -1,0 +1,39 @@
+.apartments {
+	position: relative;
+
+	&::before {
+		transform: translate(-295%, 0);
+		line-height: 1.01;
+		content: "III";
+		@include decorNumder;
+
+		@include mediaTablet {
+			content: '';
+		}
+	}
+
+	// .apartments__title
+
+	&__title {
+		margin-bottom: 88px;
+
+		@include mediaTablet {
+			margin-bottom: 44px;			
+		}
+	}
+
+	// .apartments__cards
+
+	&__cards {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 30px;
+
+		@include mediaTablet {
+			grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+		}
+	}
+
+
+}
+

@@ -1,0 +1,25 @@
+// BASE
+
+@import './base/reset'; // обнуление
+@import './base/vars'; // переменные
+@import './base/mixins'; // миксины
+@import './base/base'; // основные стили
+
+// Blocks
+
+@import './blocks/header'; // первый экран
+@import './blocks/nav'; // меню
+@import './blocks/nav-icon'; // кнопа моб. меню
+
+@import './blocks/info'; // футер первого экрана
+@import './blocks/benefits'; // преимущества
+@import './blocks/apartments'; // наши квартиры
+@import './blocks/card'; // карточки
+@import './blocks/cta'; // призыв к действию
+@import './blocks/form'; // форма
+@import './blocks/video'; // видео блог
+@import './blocks/section-map'; // карта
+@import './blocks/feedback'; // призыв к действию 2
+@import './blocks/footer'; // подвал
+@import './blocks/footer'; // подвал
+@import './blocks/yandex-map'; // подвал
